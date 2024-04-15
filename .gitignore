@@ -1,4 +1,3 @@
-config/db_conn.php
 vendor
 composer.json
 composer.lock
