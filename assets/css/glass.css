@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+:root {
+    --green: #4c5649ff;
+    --white: #ffffff;
+    --greenO: rgba(76, 86, 73, 0.666);
+    --bgWhite1: rgba(255, 255, 255, 0.429);
+    --bgWhite2: rgba(255, 255, 255, 0.78);
+}
+
+.glass {
+    background-color: var(--bgWhite2);
+    border-radius: 20px;
+    margin-top: 20px;
+
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+:root {
+    --black: rgb(27, 27, 27);
+    --white: #f3f3f3;
+    --text: rgb(47, 47, 47);
+    --textO: rgba(47, 47, 47, 0.666);
+    --paleblue: #ADD8E6;
+    --paleblueO: #6495a6;
+    --error: rgb(255, 113, 113);
+    --bgGrey: rgb(222, 222, 222);
+}
+
+.navbar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--black);
+    padding: 10px 20px;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+
+    width: 100%;
+
+    gap: 10px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    max-width: 50px;
+    height: auto;
+}
+
+.school-name {
+    font-weight: bold;
+    color: var(--black);
+}
+
+.school-address {
+    font-weight: 100;
+    font-size: 12px;
+
+    font-family: 'Vollkorn', serif;
+
+}
+
+.navbar-right ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-right li {
+    margin-right: 20px; /* Add spacing between menu items */
+}
+
+.navbar-right a {
+    text-decoration: none;
+    color: var(--black);
+    transition: color 0.3s;
+    border-radius: 1em; /* Using relative unit for border-radius */
+    background-color: var(--paleblue);
+    padding: 0.5em 1em; /* Using relative units for padding */
+    display: inline-block; /* Ensures the button expands/contracts with text */
+}
+
+
+
+.navbar-right a:hover {
+    background-color: var(--paleblueO); /* Change color on hover */
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-left {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .navbar-right ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+    }
+    
+    .navbar-right li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .school-name {
+        display: none; /* Hide the company name on smaller screens */
+    }
+}

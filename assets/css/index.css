@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+:root {
+    --black: rgb(27, 27, 27);
+    --white: #f3f3f3;
+    --text: rgb(47, 47, 47);
+    --textO: rgba(47, 47, 47, 0.666);
+    --paleblue: #ADD8E6;
+    --paleblueO: #6495a6;
+    --disabledButton: #add8e682;
+    --error: rgb(255, 113, 113);
+    --bgGrey: rgb(222, 222, 222);
+}
+
+#alert {
+    color: var(--error);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Vollkorn', serif;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+}
+  
+form input,
+form button {
+    font-size: large;
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+}
+  
+form input:focus,
+form button:focus {
+    outline-color: var(--paleblue);
+}
+  
+form button {
+    background-color: var(--paleblue);
+}
+  
+form input:hover,
+form button:hover {
+    background-color: var(--paleblueO);
+    cursor: pointer;
+}
+
+.main-container {
+    width: 100%;
+
+}
+
+.main-container .container1 {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    flex: 0 0 auto;
+}
+
+.buttons ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons li {
+    text-decoration: none;
+    padding: none;
+    list-style-type: none;
+}
+
+.buttons button {
+    border: none;
+    background-color: var(--paleblue);
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    font-family: 'Vollkorn', serif;
+    color: var(--black);
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buttons button:hover {
+    background-color: var(--paleblueO);
+    cursor: pointer;
+}
+
+.buttons button:disabled {
+    background-color: var(--disabledButton);
+    cursor: not-allowed;
+}
+
+.buttons button img {
+    width: 20px;
+    height: auto;
+}
+
+.container1 h1 {
+    color: var(--paleblueO);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+}
+
+.container1 p {
+    font-family: 'Vollkorn', serif;
+    color: var(--text);
+    font-size: 15px;
+}
+
+.container2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+    height: 70%;
+
+    overflow: scroll;
+    flex: 1;
+
+}
+
+.container2 table {
+    width: 100%;
+    min-width: 1000px;
+    margin-bottom: 10px;
+}
+
+.container2 th {
+    color: var(--paleblueO);
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-size: 25px;
+}
+
+.container2 td {
+    align-items: center;
+    color: var(--text);
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    border-top: var(--textO) 2px solid;
+    padding: 2px;
+}
+.container2 .attendanceData {
+    text-align: center;
+    max-width: 150px;
+    width: auto;
+}
+
+.container2 .late {
+    color: var(--error);
+}
+
+hr {
+    border: none; /* Remove the default border */
+    height: 2px; /* Set the height of the line */
+    background-color: #333; /* Set the background color */
+    margin: auto; /* Add some vertical spacing and center horizontally */
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+
+  
+@media (max-width: 768px) {
+
+    .main-container .container1 {
+        flex-direction: column;
+        gap: 10px;
+
+        padding: 15px;
+    }
+
+    .buttons button {
+        height: 40px;
+        width: 40px;
+        font-size: 15px;
+    }
+    
+    .buttons button img {
+        width: 15px;
+    }
+    
+    .container1 h1 {
+        color: var(--paleblueO);
+        font-size: 18px;
+    }
+    
+    .container1 p {
+        font-size: 12px;
+    }
+
+    .container2 {
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .container2 table {
+        min-width: 500px;
+    }
+
+    .container2 th {
+        font-size: 15px;
+    }
+
+    .container2 td {
+        font-size: 12px;
+    }
+
+    hr {
+        margin-bottom: 10px;
+    }
+
+
+}

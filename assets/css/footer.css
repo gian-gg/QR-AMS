@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+:root {
+    --black: rgb(27, 27, 27);
+    --white: #f3f3f3;
+    --text: rgb(47, 47, 47);
+    --textO: rgba(47, 47, 47, 0.666);
+    --paleblue: #ADD8E6;
+    --paleblueO: #6495a6;
+    --error: rgb(255, 113, 113);
+    --bgGrey: rgb(222, 222, 222);
+}
+
+#disclaimer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--error);
+    color: var(--black);
+    text-align: center;
+    padding: 10px;
+
+    font-size: 20px;
+}
+
+#disclaimer a {
+    color: var(--black);
+    font-size: 20px;
+}
+
+#disclaimer a:hover {
+    color: var(--textO);
+}
+
+.footer {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: 'Vollkorn', serif;
+
+    height: 50px;
+    padding-top: 5px;
+    font-family: 'Vollkorn', serif;
+    font-size: 15px;
+
+}
+
+.footer img {
+    width: 50px;
+    height: auto;
+    opacity: 0.8;
+    filter: invert();
+}
+
+.footer a {
+    font-weight: bolder;
+    margin: 0;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer #vertical-hr {
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.516);
+    width: 2px;
+    height: 100%;
+    border: none;
+    margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    #disclaimer {
+        font-size: 12px;
+    }
+    
+    #disclaimer a {
+        font-size: 12px;
+    }
+}

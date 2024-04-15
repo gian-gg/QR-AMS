@@ -1,0 +1,29 @@
+:root {
+  --black: rgb(27, 27, 27);
+  --white: #f3f3f3;
+  --text: rgb(47, 47, 47);
+  --textO: rgba(47, 47, 47, 0.666);
+  --paleblue: #ADD8E6;
+  --paleblueO: #6495a6;
+  --error: rgb(255, 113, 113);
+  --bgGrey: rgb(222, 222, 222);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease 0s;
+}
+  
+body {
+  background-color: var(--bgGrey);
+
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
