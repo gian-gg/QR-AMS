@@ -98,7 +98,7 @@
     <div class="footer">
         <img src="../assets/images/gg.png" alt="gian.gg logo">
         <hr id="vertical-hr">
-        <a href="https://github.com/spookyexe" target="_blank">© GIAN EPANTO, 2023</a>
+        <a href="https://github.com/spookyexe" target="_blank">© GIAN EPANTO, 2024</a>
 
     </div>
 

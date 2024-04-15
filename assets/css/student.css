@@ -16,11 +16,11 @@
 
 .main-container {
     width: 100%;
+    padding: 40px;
 
 }
 
 .main-container .container1 {
-    padding: 40px;
     display: flex;
     justify-content: space-between;
 

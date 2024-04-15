@@ -257,7 +257,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) {
         <div class="footer">
             <img src="../assets/images/gg.png" alt="gian.gg logo">
             <hr id="vertical-hr">
-            <a href="https://github.com/spookyexe" target="_blank">© GIAN EPANTO, 2023</a>
+            <a href="https://github.com/spookyexe" target="_blank">© GIAN EPANTO, 2024</a>
 
         </div>
         <p id="disclaimer">In Partial fulfillment Of the requirements for the Strand Science, Technology, Engineering, Mathematics. <a href="about.php">Learn more</a></p>
