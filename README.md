@@ -2,7 +2,7 @@
 
 #### QUICK RESPONSE - ATTENDANCE MONITORING SYSTEM
 
-Student Attendance Monitoring System with SMS Notification and DepEd SF2 Automation through QR-CODE Scanning.
+- Student Attendance Monitoring System with SMS Notification and DepEd SF2 Automation through QR-CODE Scanning.
 
 Copyright (c) 2024 GERI GIAN EPANTO
 
