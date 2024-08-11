@@ -8,6 +8,8 @@ Copyright (c) 2024 GERI GIAN EPANTO
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
+[![TECH](https://skillicons.dev/icons?i=html,css,js,php,mysql,arduino)](https://skillicons.dev)
+
 ## Screenshots
 
 - LOGIN PAGE
