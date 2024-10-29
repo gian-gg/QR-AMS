@@ -4,9 +4,12 @@
 
 - Student Attendance Monitoring System with SMS Notification and DepEd SF2 Automation through QR-CODE Scanning.
 
+## LICENSE
+
 Copyright (c) 2024 GERI GIAN EPANTO
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License. You may not use this work for commercial purposes without permission from the author.
+
 
 [![TECH](https://skillicons.dev/icons?i=html,css,js,php,mysql,arduino,linux,ubuntu)](https://skillicons.dev)
 
