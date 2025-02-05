@@ -17,7 +17,7 @@ $grade_level = $_SESSION['user_gradeLevel'];
 $adviser_name = $_SESSION['user_full_name'];
 $section = $_SESSION['user_section'];
 // principal
-$principal = "Crestina Tayone Parot";
+$principal = "ENTER_PRINCIPAL_NAME_HERE";
 // dynamic dates
 $halfdayDates = array();
 $holidayDates = array(); // "2024-04-9", "2024-04-17"
